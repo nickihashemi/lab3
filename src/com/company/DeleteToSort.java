@@ -2,7 +2,6 @@ package com.company;
 import java.util.ArrayList;
 import java.util.List;
 
-
 /**
  * finds the indices that disrupt the order of the array list
  */
@@ -18,7 +17,7 @@ public class DeleteToSort {
      * @return indices
      */
     ArrayList<Integer> minDeletionSize(String[] A) {
-        indices.clear();
+        indices.clear();        //resets the indices
 
         for (int i=0; i<A.length-1; i++) {
             if (A[i].length() != A[i+1].length()) {
