@@ -4,6 +4,7 @@ import java.util.List;
 
 /**
  * finds the indices that disrupt the order of the array list
+ * lab is complete
  */
 public class DeleteToSort {
 
