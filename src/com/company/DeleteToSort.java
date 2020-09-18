@@ -49,7 +49,11 @@ public class DeleteToSort {
      * @param args
      */
     public static void main(String[] args) {
-        String[] A = {"cba", "daf", "ghi"};
+        //String[] A = {"cba", "daf", "ghi"};       output: [1]
+        //String[] A = {"a", "b"};                  output: []
+        //String[] A = {"zyx", "wvu", "tsr"};       output: [0, 1, 2]
+        String[] A = {"Captain", "Marvel", "saved", "the", "Avengers"};     //output: -1
+
         DeleteToSort test = new DeleteToSort();
 
         System.out.println(test.minDeletionSize(A));
